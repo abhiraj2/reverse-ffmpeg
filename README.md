@@ -28,3 +28,9 @@ e.g. reversing a 1 min 38 sec 1080p60 youtube video requires a free space of aro
 
 The only necessity for this to exist is because the ffmpeg reverse option uses godammn too much memory and since I don't have that much RAM but have a 1 TB HDD, I make use of it. 
 e.g. the 1 min 38 sec youtube video crashed my entire PC 3 times while reversing the video.
+
+# Building
+
+Make sure the requirements are fullfilled -> Make desired changes to the reverse-ffmpeg.py -> go to CLI -> browse to the directory -> `python setup.py build` 
+
+This will build the executable in the build folder
